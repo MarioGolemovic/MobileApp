@@ -152,6 +152,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("NotifyDataSetChanged")
     fun searchData(search: String){
         list.clear()
+
         list.addAll(database.userDao().searchByName(search))
         var totalValue = 0
         var totalYears = 0
