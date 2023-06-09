@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MarioApp</string>
+    <string-array name="items_option">
+        <item>Update</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+
+</resources>
